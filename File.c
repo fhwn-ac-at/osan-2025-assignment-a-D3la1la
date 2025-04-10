@@ -1,4 +1,7 @@
-//Command Dumping Ground: 1.0, 
+//Command Dumping Ground: 1.0, Utterly random inserted bits and parts due to losing the oversight 1 hour in 
+
+
+#define 
 
 typedef struct 
 {
@@ -95,7 +98,7 @@ pid_t const waited = wait(&wstatus);
 
     }
 
-
+struct work_message;
     
 
 printf("Wait returned %d, status is %d and %d\n", getpid(), waited, wstatus);
@@ -122,7 +125,9 @@ int individual_child(void *)
 		
 		
 	}
+	struct work_message intructions;
 	
+	mq_receive(command_queue) &instructions, sizeof(struct work_message)
 	
 	int child_labour()
 	{
@@ -137,6 +142,13 @@ int individual_child(void *)
 	
 	mqd_t command_queue = mq_open("/mq_211014", O_RDONLY),
 	print("[%d] mw_open returned: %d\n", getpid(), command_queue);
+	
+	printf("Received message of size %d bytes: work to do %d\n", getpid(), received, instructions);
+	
+	
+	
+	
+	
 	if(command_queue == -1)
 	{
 		return EXIT_FAILURE;
