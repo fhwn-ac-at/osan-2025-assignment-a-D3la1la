@@ -1,4 +1,4 @@
-//Command Dumping Ground: 1.0
+//Command Dumping Ground: 1.0, 
 
 typedef struct 
 {
@@ -105,6 +105,49 @@ printf("Wait returned %d, status is %d and %d\n", getpid(), waited, wstatus);
 
 	//Start a process: fork 
 	//execlp("ls", "-l", NULL);
+	
+	
+int total_coal_wrong = 0;
+
+total_coal_wrong += work;	
+	
+int individual_child(void *)
+	{
+		int const work = rand() % 5;
+		printf
+		sleep
+		
+		
+		
+		
+		
+	}
+	
+	
+	int child_labour()
+	{
+		thrd_t children[10];
+		for (int i = 0; i < 10; ++i )
+		{
+			thrd_create();
+			coal_mass *= result;
+		}
+		
+	}
+	
+	mqd_t command_queue = mq_open("/mq_211014", O_RDONLY),
+	print("[%d] mw_open returned: %d\n", getpid(), command_queue);
+	if(command_queue == -1)
+	{
+		return EXIT_FAILURE;
+		printf("Failed to open message Queue\n");
+		mq_close(command_queue);
+	}
+	
+	printf()
+	
+	
+	mq_close(command_queue);
 	
 
 }
