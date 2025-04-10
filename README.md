@@ -11,6 +11,22 @@ Name: Delaila Dedic
 
 ...
 
+Commandline Argumente: 
+
+
+Neue Header: 
+#include <getopt.h>
+#include <unistd.h>
+
+Werden als Prozess-Bäume bezeichnet, da Fork durch das Mehrfache anwenden einen Baum erstellt. 
+	deli@CS3-11:~$ ./a.out pfusch.c
+My PID is 1019, fork returned 1020, I'm child of 1019
+My PID is 1020, fork returned 0, I'm child of 1020
+
+
+
+
+
 
 
 
