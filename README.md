@@ -14,7 +14,7 @@ Manual Suchen:
 deli@CS3-11:~$ man wait
 deli@CS3-11:~$ man getopt
 deli@CS3-11:~$ man 3 getopt
-deli@CS3-11:~$  man wait
+deli@CS3-11:~$ man wait
 deli@CS3-11:~$ man getopt
 deli@CS3-11:~$ man exec
 

@@ -96,9 +96,16 @@ pid_t const waited = wait(&wstatus);
     }
 
 
+    
+
 printf("Wait returned %d, status is %d and %d\n", getpid(), waited, wstatus);
 
+//cli_args const args = parse_command_line(argc, argv);
+	//printf("i: %d, s: %s, b: %d\n", args.i, args.s, args.b);
 
+	//Start a process: fork 
+	//execlp("ls", "-l", NULL);
+	
 
 }
 }
