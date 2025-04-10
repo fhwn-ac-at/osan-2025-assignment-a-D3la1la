@@ -6,12 +6,19 @@ Hello, World!
 
 
 Protokoll von B&NW von 10.04.2025
+Protokoll 3
 Thema: Systemprogrammierung
 Name: Delaila Dedic
 
-...
+Manual Suchen:
+deli@CS3-11:~$ man wait
+deli@CS3-11:~$ man getopt
+deli@CS3-11:~$ man 3 getopt
+deli@CS3-11:~$  man wait
+deli@CS3-11:~$ man getopt
+deli@CS3-11:~$ man exec
 
-Commandline Argumente: 
+Commandline/Andere Argumente: 
 
 
 Neue Header: 
@@ -22,6 +29,8 @@ Werden als Prozess-Bäume bezeichnet, da Fork durch das Mehrfache anwenden einen
 	deli@CS3-11:~$ ./a.out pfusch.c
 My PID is 1019, fork returned 1020, I'm child of 1019
 My PID is 1020, fork returned 0, I'm child of 1020
+
+Erstellung von Child und Parent Prozesse, 
 
 
 

@@ -79,5 +79,26 @@ int wstatus = 0;
 pid_t const waited = wait(&wstatus);
 printf("Wait returned %d, status is %d\n", getpid(), waited, wstatus);
 
+
+	int wstatus = 0;
+pid_t const waited = wait(&wstatus);
+	if(WIFEXITED(wstatus))
+	{
+        
+        printf("Child normally returns with return code: %D\n", );
+
+
+	}
+    else if(WIFEXITED(wstatus))
+    {
+        printf("Child normally returns with return code: %D\n", );
+
+    }
+
+
+printf("Wait returned %d, status is %d and %d\n", getpid(), waited, wstatus);
+
+
+
 }
 }
