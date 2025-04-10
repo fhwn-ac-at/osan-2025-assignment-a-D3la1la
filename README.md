@@ -2,3 +2,28 @@
 # Hello, World!
 
 Hello, World!
+
+
+
+Protokoll von B&NW von 10.04.2025
+Thema: Systemprogrammierung
+Name: Delaila Dedic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
